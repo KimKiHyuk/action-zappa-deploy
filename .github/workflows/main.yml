@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: KimKiHyuk/hello-world-docker-action@v1
+      uses: KimKiHyuk/action-zappa-deploy@v0
       with:
         who-to-greet: 'from key'
     # Use the output from the `hello` step
